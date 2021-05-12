@@ -55,7 +55,7 @@ const Editor: any = memo(function Editor({
         drawSelection(),
         EditorState.allowMultipleSelections.of(true),
         indentOnInput(),
-        defaultHighlightStyle,
+        defaultHighlightStyle.fallback,
         bracketMatching(),
         closeBrackets(),
         autocompletion(),

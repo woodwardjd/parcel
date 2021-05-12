@@ -46,7 +46,6 @@
   },
   "browser": {
     "./src/generateCertificate.js": false,
-    "./src/http-server.js": false,
-    "./src/prettyDiagnostic.js": false
+    "./src/http-server.js": false
   }
 }
