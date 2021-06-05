@@ -1,7 +1,11 @@
 @import 'foo';
 @import './bar.scss';
+@import '_baz.scss';
+@import 'quux';
 
 .index {
   color: $foo;
   background-color: $bar;
+  border-color: $baz;
+  text-decoration-color: $quux;
 }
