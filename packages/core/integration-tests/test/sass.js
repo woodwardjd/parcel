@@ -78,6 +78,8 @@ describe('sass', function() {
     assert(css.includes('.index'));
     assert(css.includes('.foo'));
     assert(css.includes('.bar'));
+    assert(css.includes('.baz'));
+    assert(css.includes('.quux'));
   });
 
   it('should support requiring empty scss files', async function() {
